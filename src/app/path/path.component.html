@@ -1,1 +1,38 @@
-<p>path works!</p>
+<div class="route__header">
+    <h1 class="route__title">{{this.team.name}}</h1>
+</div>
+<div class="route__container">
+    <div class="route route--1">
+        <div *ngFor="let member of this.level_1" class="route__member">
+            <div class="route__member-pin">§</div>
+            <div class="route__member-modal member">
+                <div class="member__name">{{member.name}}</div>
+                <div>{{member.goal.value}}:{{member.goal.date}}</div>
+                <div>{{member.commitment.value}}:{{member.commitment.date}}</div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="route route--2">
+        <div *ngFor="let member of this.level_2" class="route__member">
+            <div class="route__member-pin">%</div>
+            <div class="route__member-modal member">
+                <div class="member__name">{{member.name}}</div>
+                <div>{{member.goal.value}}:{{member.goal.date}}</div>
+                <div>{{member.commitment.value}}:{{member.commitment.date}}</div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="route route--3">
+        <div *ngFor="let member of this.level_3" class="route__member">
+            <div class="route__member-pin">#</div>
+            <div class="route__member-modal member">
+                <div class="member__name">{{member.name}}</div>
+                <div>{{member.goal.value}}:{{member.goal.date}}</div>
+                <div>{{member.commitment.value}}:{{member.commitment.date}}</div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+</div>

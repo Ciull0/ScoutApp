@@ -15,6 +15,30 @@
             }
         },
         {
+            "name": "Sebastian",
+            "level": 1,
+            "goal" : {
+                "date": "2018-01-01",
+                "value": "Orientamento"
+            },
+            "commitment": {
+                "date": "2018-01-01",
+                "value": "Partecipazione"
+            }
+        },
+        {
+            "name": "Sebastian",
+            "level": 1,
+            "goal" : {
+                "date": "2018-01-01",
+                "value": "Orientamento"
+            },
+            "commitment": {
+                "date": "2018-01-01",
+                "value": "Partecipazione"
+            }
+        },
+        {
             "name": "Frank",
             "level": 2,
             "goal" : {
@@ -29,6 +53,18 @@
         {
             "name": "Sebastian",
             "level": 3,
+            "goal" : {
+                "date": "2018-01-01",
+                "value": "Orientamento"
+            },
+            "commitment": {
+                "date": "2018-01-01",
+                "value": "Partecipazione"
+            }
+        },
+        {
+            "name": "Sebastian",
+            "level": 2,
             "goal" : {
                 "date": "2018-01-01",
                 "value": "Orientamento"

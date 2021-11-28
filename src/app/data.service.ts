@@ -11,7 +11,7 @@ export class DataService {
   ) { }
 
   getData(content: string) {
-    let address = "assets/content/" + content +  /".json";
+    let address = "assets/content/" + content +  ".json";
     return new Promise((resolve, reject) => {
       this.http.get(address).subscribe(
         (data) => {

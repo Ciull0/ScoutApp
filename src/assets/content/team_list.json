@@ -1,7 +1,27 @@
 [
     {
-        "name": "Lupi",
+        "name": "lupi",
         "url": "lupi",
         "logo": "lupi.png"
+    },
+    {
+        "name": "canguri",
+        "url": "canguri",
+        "logo": "canguri.gif"
+    },
+    {
+        "name": "castori",
+        "url": "castori",
+        "logo": "castori.png"
+    },
+    {
+        "name": "lontre",
+        "url": "lontre ",
+        "logo": "lontre.png"
+    },
+    {
+        "name": "pantere",
+        "url": "pantere",
+        "logo": "pantere.gif"
     }
 ]
