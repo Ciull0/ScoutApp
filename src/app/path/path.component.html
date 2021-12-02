@@ -1,37 +1,19 @@
 <div class="route__header">
+    <div class="route__img-wrapper">
+        <img [src]="'assets/imgs/'+this.team.logo" class="route__logo" alt="">
+    </div>
     <h1 class="route__title">{{this.team.name}}</h1>
 </div>
 <div class="route__container">
-    <div class="route route--1">
-        <div *ngFor="let member of this.level_1" class="route__member">
-            <div class="route__member-pin">§</div>
+    <div *ngFor="let level of this.levels" class="route route--{{level[0]}}">
+        <div *ngFor="let member of this.level[1]" class="route__member">
             <div class="route__member-modal member">
-                <div class="member__name">{{member.name}}</div>
-                <div>{{member.goal.value}}:{{member.goal.date}}</div>
-                <div>{{member.commitment.value}}:{{member.commitment.date}}</div>
-                <div></div>
-            </div>
-        </div>
-    </div>
-    <div class="route route--2">
-        <div *ngFor="let member of this.level_2" class="route__member">
-            <div class="route__member-pin">%</div>
-            <div class="route__member-modal member">
-                <div class="member__name">{{member.name}}</div>
-                <div>{{member.goal.value}}:{{member.goal.date}}</div>
-                <div>{{member.commitment.value}}:{{member.commitment.date}}</div>
-                <div></div>
-            </div>
-        </div>
-    </div>
-    <div class="route route--3">
-        <div *ngFor="let member of this.level_3" class="route__member">
-            <div class="route__member-pin">#</div>
-            <div class="route__member-modal member">
-                <div class="member__name">{{member.name}}</div>
-                <div>{{member.goal.value}}:{{member.goal.date}}</div>
-                <div>{{member.commitment.value}}:{{member.commitment.date}}</div>
-                <div></div>
+                <div (click)="member.isOpen = !member.isOpen" class="member-dot">*</div>
+                <div *ngIf="member.isOpen" class="member__modal">
+                    <div class="member__name">{{member.name}}</div>
+                    <div>{{member.goal.value}}:{{member.goal.date}}</div>
+                    <div>{{member.commitment.value}}:{{member.commitment.date}}</div>
+                </div>
             </div>
         </div>
     </div>

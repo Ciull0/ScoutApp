@@ -4,7 +4,7 @@
     "members": [
         {
             "name": "Sebastian",
-            "level": 1,
+            "level": "Scoperta",
             "goal" : {
                 "date": "2018-01-01",
                 "value": "Orientamento"
@@ -16,7 +16,7 @@
         },
         {
             "name": "Sebastian",
-            "level": 1,
+            "level": "Scoperta",
             "goal" : {
                 "date": "2018-01-01",
                 "value": "Orientamento"
@@ -28,7 +28,7 @@
         },
         {
             "name": "Sebastian",
-            "level": 1,
+            "level": "Scoperta",
             "goal" : {
                 "date": "2018-01-01",
                 "value": "Orientamento"
@@ -40,7 +40,7 @@
         },
         {
             "name": "Frank",
-            "level": 2,
+            "level": "Competenza",
             "goal" : {
                 "date": "2018-01-01",
                 "value": "Orientamento"
@@ -52,7 +52,7 @@
         },
         {
             "name": "Sebastian",
-            "level": 3,
+            "level": "Responsabilità",
             "goal" : {
                 "date": "2018-01-01",
                 "value": "Orientamento"
@@ -64,7 +64,7 @@
         },
         {
             "name": "Sebastian",
-            "level": 2,
+            "level": "Competenza",
             "goal" : {
                 "date": "2018-01-01",
                 "value": "Orientamento"
@@ -76,7 +76,7 @@
         },
         {
             "name": "Sebastian",
-            "level": 2,
+            "level": "Competenza",
             "goal" : {
                 "date": "2018-01-01",
                 "value": "Orientamento"

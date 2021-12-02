@@ -10,9 +10,7 @@ import { DataService } from '../data.service';
 export class PathComponent implements OnInit {
 
   team: any;
-  level_1: any = [];
-  level_2: any = [];
-  level_3: any  = [];
+  levels: any = {};
 
   constructor(
     private data: DataService,
@@ -25,17 +23,16 @@ export class PathComponent implements OnInit {
       this.data.getData(params.team).then((data)=>{
         this.team = data;
         
+        
         this.team.members.forEach(member => {
-          if (member.level == 1) {
-            this.level_1.push(member);
-          }
-          else if (member.level == 2) {
-            this.level_2.push(member);
-          }
-          else if (member.level == 3) {
-            this.level_3.push(member);
-          }
+          this.levels[member.level] == undefined ? this.levels[member.level] = [] : this.levels[member.level] = this.levels[member.level];
+          this.levels[member.level].push(member);
         });
+        this.levels = Object.entries(this.levels);
+        this.levels.forEach(element => {
+          element[1]['isOpen'] = false;
+        });
+        console.log(this.levels);
       });
     });
   }
