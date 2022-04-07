@@ -6,15 +6,24 @@
 </div>
 <div class="route__container">
     <div *ngFor="let level of this.levels" class="route route--{{level[0]}}">
-        <div *ngFor="let member of this.level[1]" class="route__member">
-            <div class="route__member-modal member">
-                <div (click)="member.isOpen = !member.isOpen" class="member-dot">*</div>
-                <div *ngIf="member.isOpen" class="member__modal">
-                    <div class="member__name">{{member.name}}</div>
-                    <div>{{member.goal.value}}:{{member.goal.date}}</div>
-                    <div>{{member.commitment.value}}:{{member.commitment.date}}</div>
-                </div>
+        <div class="route__street">
+            <img [src]="'assets/imgs/'+this.team.path" class="route__street-image" alt="">
+            <div class="route__level">{{level[0]}}</div>
+        </div>
+        <div class="route__members">
+            <div (click)="currentMember = member" *ngFor="let member of this.level[1]" [ngStyle]="this.getRandomPosition()" class="route__member">
+                <app-icons icon="scout"></app-icons>
+                <div>{{member.name}}</div>
             </div>
+        </div>
+    </div>
+
+    <div *ngIf="currentMember" [className]="currentMember==undefined ? 'member__modal hidden':'member__modal'">
+        <div class="member__modal-inner">
+            <div class="member__modal-element member__modal-element--name">{{currentMember.name}}</div>
+            <div class="member__modal-element">{{currentMember.goal.value}}:{{currentMember.goal.date}}</div>
+            <div class="member__modal-element">{{currentMember.commitment.value}}:{{currentMember.commitment.date}}</div>
+            <div class="member__modal-element member__modal-element--close"><app-icons (click)="currentMember = undefined" icon="ok"></app-icons></div>
         </div>
     </div>
 </div>

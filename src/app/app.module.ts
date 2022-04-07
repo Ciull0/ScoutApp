@@ -8,12 +8,14 @@ import { PathComponent } from './path/path.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
+import { IconsComponent } from './icons/icons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
-    PathComponent
+    PathComponent,
+    IconsComponent
   ],
   imports: [
     BrowserModule,
