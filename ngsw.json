@@ -1,0 +1,97 @@
+{
+  "configVersion": 1,
+  "timestamp": 1649708361912,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.1d732005099818eeeb47.js",
+        "/manifest.webmanifest",
+        "/polyfills.00096ed7d93ed26ee6df.js",
+        "/runtime.7b63b9fd40098a2e8207.js",
+        "/styles.09e2c710755c8867a460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/content/lupi.json",
+        "/assets/content/team_list.json",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/imgs/canguri.gif",
+        "/assets/imgs/castori.png",
+        "/assets/imgs/lontre.png",
+        "/assets/imgs/lupi.png",
+        "/assets/imgs/pantere.gif",
+        "/assets/imgs/street.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/content/lupi.json": "c5ff8cbc5e0a346f427aa3a6d4dce6c6261c3159",
+    "/assets/content/team_list.json": "1ef2b0c7b113a3b774bdd620627f4bf6b7aa8f6c",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/imgs/canguri.gif": "5216f44e7ea1c3346b5306c396280fe52746bbb9",
+    "/assets/imgs/castori.png": "9ec6d054b6c8cd12747bb65edbab1f4955b30b2b",
+    "/assets/imgs/lontre.png": "0684bcca5649b38b386d879a5dea67c5ebc5999a",
+    "/assets/imgs/lupi.png": "253b811ee03d34f8910e7c31befa4ce227bc040d",
+    "/assets/imgs/pantere.gif": "52a0ad8efdb8a462ea7ed6e58051fc22e10c191b",
+    "/assets/imgs/street.png": "217959a7ad325d3a1ecc67b27e865dbce2e67299",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "2cd2eafe0ec390cb5d19593c926c4d98b63d6d1e",
+    "/main.1d732005099818eeeb47.js": "eb5198c6fa21c269c32a5b64a68e3e19c0b7fe78",
+    "/manifest.webmanifest": "657c0d9d4425cd271bb0ac9889ce871734fe7191",
+    "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
