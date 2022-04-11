@@ -4,40 +4,43 @@ hide_body: true
 fields:
 - type: text
   name: name
-  label: name
+  label: Team Name
 - type: file
   name: logo
   label: logo
-- type: file
-  name: path
-  label: path
 - type: field_group_list
   name: members
   label: members
   fields:
   - type: text
     name: name
-    label: name
+    label: Member Name
   - type: text
     name: level
-    label: level
+    label: Member Level
   - type: field_group
     name: goal
-    label: goal
+    label: Goal
     fields:
     - type: datetime
       name: date
-      label: date
+      label: Goal Date
+      config:
+        date_format: DD/MM/YYYY
+        export_format: YYYY-MM-DD
     - type: text
       name: value
-      label: value
+      label: Goal Name
   - type: field_group
     name: commitment
-    label: commitment
+    label: Commitment
     fields:
     - type: datetime
       name: date
-      label: date
+      label: Commitment Date
+      config:
+        date_format: DD/MM/YYYY
+        export_format: YYYY-MM-DD
     - type: text
       name: value
-      label: value
+      label: Commitment Name
