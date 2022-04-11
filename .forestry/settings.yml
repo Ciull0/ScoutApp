@@ -9,9 +9,9 @@ sections:
   label: Content
   create: documents
   match: "**/*.json"
-  new_doc_ext: ".json"
-upload_dir: uploads
-public_path: "/uploads"
+  new_doc_ext: json
+upload_dir: assets/imgs
+public_path: assets/imgs
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
