@@ -1,0 +1,18 @@
+{
+  "name": "Castori",
+  "logo": "assets/imgs/castori.png",
+  "members": [
+    {
+      "name": "Giovanni",
+      "level": "Scoperta",
+      "goal": {
+        "date": "2022-04-28",
+        "value": "Vittoria"
+      },
+      "commitment": {
+        "date": "2022-04-29",
+        "value": "Esplorazione"
+      }
+    }
+  ]
+}

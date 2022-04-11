@@ -44,3 +44,5 @@ fields:
     - type: text
       name: value
       label: Commitment Name
+pages:
+- assets/content/castori.json
