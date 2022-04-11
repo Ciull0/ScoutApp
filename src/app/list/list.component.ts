@@ -7,7 +7,7 @@ import { DataService } from '../data.service';
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent implements OnInit {
-  teams: any;
+  page: any;
 
   constructor(
     private dataService: DataService
@@ -15,7 +15,7 @@ export class ListComponent implements OnInit {
 
   ngOnInit(): void {
     this.dataService.getData('team_list').then((data)=>{
-      this.teams = data;
+      this.page = data;
     });
   }
 

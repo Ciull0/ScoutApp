@@ -1,13 +1,14 @@
 .list{
     display: flex;
     flex-flow: column nowrap;
-    background-color: rgba(burlywood, 0.5);
-    border: 1px solid black;
+    margin: 1rem;
+    background-color: rgba(burlywood, 0.3);
+    border: 3px solid brown;
+    border-radius: 10%;
     &__line{
         padding: 0.5rem 1rem;
         font-size: 2rem;
         line-height: 2.5rem;
-        font-family: 'Roboto', sans-serif;
         text-transform: capitalize;
         display: flex;
         flex-flow: row nowrap;
@@ -16,6 +17,7 @@
         justify-content: flex-start;
         + .list__line{
             border-top: 1px solid grey;
+            margin: 0 0.5rem;
         }
         &-img{
             position: absolute;

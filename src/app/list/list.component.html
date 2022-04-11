@@ -1,5 +1,6 @@
 <div class="list">
-    <div class="list__line" routerLink="{{team.url}}" *ngFor="let team of this.teams">
+    <app-header [page]="page"></app-header>
+    <div class="list__line" routerLink="{{team.url}}" *ngFor="let team of this.page.teams">
         <div class="list__line-img-wrapper">
             <img [src]="'assets/imgs/'+team.logo" src="'assets/{{team.logo}}" alt="" class="list__line-img">
         </div>

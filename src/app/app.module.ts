@@ -9,13 +9,15 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 import { IconsComponent } from './icons/icons.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
     PathComponent,
-    IconsComponent
+    IconsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

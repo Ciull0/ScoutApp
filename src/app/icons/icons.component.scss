@@ -1,6 +1,6 @@
 .icon--scout {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     padding: 0.33rem;
     object-fit: contain;
     border: 2px solid red;
@@ -16,4 +16,9 @@
     border-radius: 20%;
     margin-top: auto;
     margin-bottom: 2rem;
+}
+
+.icon--back {
+    height: 3rem;
+    width: auto;
 }

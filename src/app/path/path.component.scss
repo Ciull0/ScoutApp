@@ -23,21 +23,25 @@
     &__header{
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
         gap: 0.5rem;
-        padding: 0.5rem 1rem;
-        height: 5vh;
+        padding: 0 1rem;
+        height: 10vh;
+
+        *:first-child{
+            margin-right: auto;
+        }
     }
 
     &__logo{
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 5rem;
+        height: 5rem;
         object-fit: contain;
     }
 
     &__title{
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
     }
 
     &__container{
@@ -68,6 +72,8 @@
 
     &__member {
         font-size: 1rem;
+        line-height: 1.5rem;
+        max-width: 100%;
         font-weight: 700;
         display: flex;
         flex-flow: column nowrap;
@@ -76,7 +82,7 @@
         flex: 1;
 
         &s{
-            padding: 1rem;
+            padding: 1rem 0;
             position: absolute;
             display: flex;
             flex-flow: row wrap;

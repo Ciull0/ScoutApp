@@ -1,4 +1,7 @@
 <div class="route__header">
+    <a routerLink="/">
+        <app-icons icon="back"></app-icons>
+    </a>
     <div class="route__img-wrapper">
         <img [src]="'assets/imgs/'+this.team.logo" class="route__logo" alt="">
     </div>
@@ -7,7 +10,7 @@
 <div class="route__container">
     <div *ngFor="let level of this.levels" class="route route--{{level[0]}}">
         <div class="route__street">
-            <img [src]="'assets/imgs/'+this.team.path" class="route__street-image" alt="">
+            <img [src]="'assets/imgs/street.png'" class="route__street-image" alt="">
             <div class="route__level">{{level[0]}}</div>
         </div>
         <div class="route__members">
