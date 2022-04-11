@@ -1,16 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     margin: 0;
-    font-family: 'Confortaa', sans-serif;
+    font-family: 'Comfortaa', cursive;
     background-color: rgba(burlywood, 0.3);
 }
 
 @at-root{
-    @font-face {
-        font-family: 'Confortaa';
-        src: url('assets/Comfortaa-VariableFont_wght.ttf') format('woff2 supports variations'),
-           url('assets/Comfortaa-VariableFont_wght.ttf') format('woff2-variations');
-        font-weight: 100 1000;
-        font-stretch: 25% 151%;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 }

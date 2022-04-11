@@ -23,9 +23,9 @@
 
     <div *ngIf="currentMember" [className]="currentMember==undefined ? 'member__modal hidden':'member__modal'">
         <div class="member__modal-inner">
-            <div class="member__modal-element member__modal-element--name">{{currentMember.name}}</div>
-            <div class="member__modal-element">{{currentMember.goal.value}}:{{currentMember.goal.date}}</div>
-            <div class="member__modal-element">{{currentMember.commitment.value}}:{{currentMember.commitment.date}}</div>
+            <div class="member__modal-element member__modal-element--name"><strong>{{currentMember.name}}</strong></div>
+            <div class="member__modal-element"><strong>{{currentMember.goal.value}}: </strong>{{currentMember.goal.date}}</div>
+            <div class="member__modal-element"><strong>{{currentMember.commitment.value}}: </strong>{{currentMember.commitment.date}}</div>
             <div class="member__modal-element member__modal-element--close"><app-icons (click)="currentMember = undefined" icon="ok"></app-icons></div>
         </div>
     </div>

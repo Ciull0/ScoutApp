@@ -123,6 +123,10 @@
 
         &-element{
             text-align: center;
+            &--name{
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
         }
 
         &-element+.member__modal-element{
