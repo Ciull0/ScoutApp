@@ -14,7 +14,7 @@ export class ListComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.dataService.getData('team_list').then((data)=>{
+    this.dataService.getData('scout-app').then((data)=>{
       this.page = data;
     });
   }
