@@ -46,3 +46,4 @@ fields:
       label: Commitment Name
 pages:
 - assets/content/castori.json
+- assets/content/lupi.json
