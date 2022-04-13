@@ -27,20 +27,20 @@
       }
     },
     {
-      "name": "Sebastian",
-      "level": "Scoperta",
+      "name": "Frank",
+      "level": "Competenza",
       "goal": {
         "date": "2018-01-01",
         "value": "Orientamento"
       },
       "commitment": {
-        "date": "2018-01-01",
+        "date": "2017-12-31",
         "value": "Partecipazione"
       }
     },
     {
-      "name": "Frank",
-      "level": "Competenza",
+      "name": "Sebastian",
+      "level": "Scoperta",
       "goal": {
         "date": "2018-01-01",
         "value": "Orientamento"
