@@ -1,90 +1,90 @@
 {
-    "name": "Lupi",
-    "logo": "lupi.png",
-    "members": [
-        {
-            "name": "Sebastian",
-            "level": "Scoperta",
-            "goal" : {
-                "date": "2018-01-01",
-                "value": "Orientamento"
-            },
-            "commitment": {
-                "date": "2018-01-01",
-                "value": "Partecipazione"
-            }
-        },
-        {
-            "name": "Sebastian",
-            "level": "Scoperta",
-            "goal" : {
-                "date": "2018-01-01",
-                "value": "Orientamento"
-            },
-            "commitment": {
-                "date": "2018-01-01",
-                "value": "Partecipazione"
-            }
-        },
-        {
-            "name": "Sebastian",
-            "level": "Scoperta",
-            "goal" : {
-                "date": "2018-01-01",
-                "value": "Orientamento"
-            },
-            "commitment": {
-                "date": "2018-01-01",
-                "value": "Partecipazione"
-            }
-        },
-        {
-            "name": "Frank",
-            "level": "Competenza",
-            "goal" : {
-                "date": "2018-01-01",
-                "value": "Orientamento"
-            },
-            "commitment": {
-                "date": "2018-01-01",
-                "value": "Partecipazione"
-            }
-        },
-        {
-            "name": "Sebastian",
-            "level": "Responsabilità",
-            "goal" : {
-                "date": "2018-01-01",
-                "value": "Orientamento"
-            },
-            "commitment": {
-                "date": "2018-01-01",
-                "value": "Partecipazione"
-            }
-        },
-        {
-            "name": "Sebastian",
-            "level": "Competenza",
-            "goal" : {
-                "date": "2018-01-01",
-                "value": "Orientamento"
-            },
-            "commitment": {
-                "date": "2018-01-01",
-                "value": "Partecipazione"
-            }
-        },
-        {
-            "name": "Sebastian",
-            "level": "Competenza",
-            "goal" : {
-                "date": "2018-01-01",
-                "value": "Orientamento"
-            },
-            "commitment": {
-                "date": "2018-01-01",
-                "value": "Partecipazione"
-            }
-        }
-    ]
+  "name": "Lupi",
+  "logo": "assets/imgs/lupi.png",
+  "members": [
+    {
+      "name": "Sebastian",
+      "level": "Scoperta",
+      "goal": {
+        "date": "2018-01-01",
+        "value": "Orientamento"
+      },
+      "commitment": {
+        "date": "2018-01-01",
+        "value": "Partecipazione"
+      }
+    },
+    {
+      "name": "Sebastian",
+      "level": "Scoperta",
+      "goal": {
+        "date": "2018-01-01",
+        "value": "Orientamento"
+      },
+      "commitment": {
+        "date": "2018-01-01",
+        "value": "Partecipazione"
+      }
+    },
+    {
+      "name": "Sebastian",
+      "level": "Scoperta",
+      "goal": {
+        "date": "2018-01-01",
+        "value": "Orientamento"
+      },
+      "commitment": {
+        "date": "2018-01-01",
+        "value": "Partecipazione"
+      }
+    },
+    {
+      "name": "Frank",
+      "level": "Competenza",
+      "goal": {
+        "date": "2018-01-01",
+        "value": "Orientamento"
+      },
+      "commitment": {
+        "date": "2018-01-01",
+        "value": "Partecipazione"
+      }
+    },
+    {
+      "name": "Sebastian",
+      "level": "Responsabilità",
+      "goal": {
+        "date": "2018-01-01",
+        "value": "Orientamento"
+      },
+      "commitment": {
+        "date": "2018-01-01",
+        "value": "Partecipazione"
+      }
+    },
+    {
+      "name": "Sebastian",
+      "level": "Competenza",
+      "goal": {
+        "date": "2018-01-01",
+        "value": "Orientamento"
+      },
+      "commitment": {
+        "date": "2018-01-01",
+        "value": "Partecipazione"
+      }
+    },
+    {
+      "name": "Sebastian",
+      "level": "Competenza",
+      "goal": {
+        "date": "2018-01-01",
+        "value": "Orientamento"
+      },
+      "commitment": {
+        "date": "2018-01-01",
+        "value": "Partecipazione"
+      }
+    }
+  ]
 }
