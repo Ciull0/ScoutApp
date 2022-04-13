@@ -3,6 +3,18 @@
   "logo": "assets/imgs/pantere.gif",
   "members": [
     {
+      "name": "Gianluca",
+      "level": "2 - Intermedi",
+      "goal": {
+        "date": "2022-04-28",
+        "value": "Svinare"
+      },
+      "commitment": {
+        "date": "",
+        "value": ""
+      }
+    },
+    {
       "name": "Filippo",
       "level": "1 - Principianti",
       "goal": {
