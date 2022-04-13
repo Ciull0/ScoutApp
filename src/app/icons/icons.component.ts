@@ -12,7 +12,6 @@ export class IconsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.icon, this.icon=="'scout'")
   }
 
 }
