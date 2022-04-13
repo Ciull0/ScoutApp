@@ -4,26 +4,27 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: subtitle
-  label: subtitle
+  label: Subtitle
 - type: text
   name: description
-  label: description
+  label: Description
 - type: file
   name: background_image
-  label: background_image
+  label: Background Image
 - type: field_group_list
   name: teams
-  label: teams
+  label: Teams
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: text
     name: url
-    label: url
+    label: Url
+    hidden: false
   - type: file
     name: logo
-    label: logo
+    label: Logo
