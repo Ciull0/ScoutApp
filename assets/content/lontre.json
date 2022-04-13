@@ -3,6 +3,18 @@
   "logo": "assets/imgs/lontre.png",
   "members": [
     {
+      "name": "Francesco",
+      "level": "Professional",
+      "goal": {
+        "date": "2022-04-28",
+        "value": "Fatturare"
+      },
+      "commitment": {
+        "date": "",
+        "value": ""
+      }
+    },
+    {
       "name": "Jonnhy",
       "level": "Special",
       "goal": {
