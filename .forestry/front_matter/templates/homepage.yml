@@ -28,3 +28,5 @@ fields:
   - type: file
     name: logo
     label: Logo
+pages:
+- assets/content/scout-app.json

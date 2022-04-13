@@ -1,0 +1,13 @@
+{
+  "title": "Scout App",
+  "subtitle": "Keep your teams aligned",
+  "description": "You can monitor your team role, level and more!",
+  "background_image": "assets/imgs/eagle-scout-pattern-vector.jpg",
+  "teams": [
+    {
+      "name": "Lupi",
+      "url": "lupi",
+      "logo": "assets/imgs/lupi.png"
+    }
+  ]
+}
