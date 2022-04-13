@@ -5,6 +5,11 @@
   "background_image": "assets/imgs/eagle-scout-pattern-vector.jpg",
   "teams": [
     {
+      "name": "Lontre",
+      "url": "lontre",
+      "logo": "assets/imgs/lontre.png"
+    },
+    {
       "name": "Lupi",
       "url": "lupi",
       "logo": "assets/imgs/lupi.png"
