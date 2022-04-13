@@ -2,7 +2,7 @@
 <div class="list">
     <div class="list__line" routerLink="{{team.url}}" *ngFor="let team of this.page.teams">
         <div class="list__line-img-wrapper">
-            <img [src]="'assets/imgs/'+team.logo" src="'assets/{{team.logo}}" alt="" class="list__line-img">
+            <img [src]="team.logo" src="{{team.logo}}" alt="" class="list__line-img">
         </div>
         <div class="list__line-text">{{team.name}}</div>
     </div>
