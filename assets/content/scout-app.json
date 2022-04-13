@@ -5,6 +5,11 @@
   "background_image": "assets/imgs/eagle-scout-pattern-vector.jpg",
   "teams": [
     {
+      "name": "Canguri",
+      "url": "canguri",
+      "logo": "assets/imgs/canguri.gif"
+    },
+    {
       "name": "Pantere",
       "url": "pantere",
       "logo": "assets/imgs/pantere.gif"
