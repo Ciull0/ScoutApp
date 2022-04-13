@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1649883477818,
+  "timestamp": 1649884795819,
   "index": "https://ciull0.github.io/ScoutApp/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://ciull0.github.io/ScoutApp/favicon.ico",
         "https://ciull0.github.io/ScoutApp/index.html",
-        "https://ciull0.github.io/ScoutApp/main.5abf9d45eade2a12d86e.js",
+        "https://ciull0.github.io/ScoutApp/main.a167ed986e5e7862db71.js",
         "https://ciull0.github.io/ScoutApp/manifest.webmanifest",
         "https://ciull0.github.io/ScoutApp/polyfills.00096ed7d93ed26ee6df.js",
         "https://ciull0.github.io/ScoutApp/runtime.7b63b9fd40098a2e8207.js",
@@ -35,8 +35,8 @@
   "dataGroups": [],
   "hashTable": {
     "https://ciull0.github.io/ScoutApp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://ciull0.github.io/ScoutApp/index.html": "0c566f042c1584492e89bf1a952a68db37905c94",
-    "https://ciull0.github.io/ScoutApp/main.5abf9d45eade2a12d86e.js": "ced800d972975b24d733bf2fa3a4f67ec00c59d7",
+    "https://ciull0.github.io/ScoutApp/index.html": "1883ccc8e588a4a171ab5910788beb1f2ab72e8d",
+    "https://ciull0.github.io/ScoutApp/main.a167ed986e5e7862db71.js": "ea6ba3dfc7b7ff0fc26f05284af6b53032681288",
     "https://ciull0.github.io/ScoutApp/manifest.webmanifest": "657c0d9d4425cd271bb0ac9889ce871734fe7191",
     "https://ciull0.github.io/ScoutApp/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "https://ciull0.github.io/ScoutApp/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
