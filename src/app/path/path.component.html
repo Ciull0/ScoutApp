@@ -2,12 +2,12 @@
     <a routerLink="/">
         <app-icons icon="back"></app-icons>
     </a>
-    <div class="route__img-wrapper">
+    <div class="route__img-wrapper" *ngIf="this.team != undefined">
         <img [src]="this.team.logo" class="route__logo" alt="">
     </div>
-    <h1 class="route__title">{{this.team.name}}</h1>
+    <h1 *ngIf="this.team != undefined" class="route__title">{{this.team.name}}</h1>
 </div>
-<div class="route__container">
+<div class="route__container" *ngIf="this.team != undefined">
     <div *ngFor="let level of this.levels" class="route route--{{level[0]}}">
         <div class="route__street">
             <img [src]="'assets/imgs/street.png'" class="route__street-image" alt="">

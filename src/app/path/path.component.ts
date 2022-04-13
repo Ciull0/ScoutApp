@@ -9,7 +9,7 @@ import { DataService } from '../data.service';
 })
 export class PathComponent implements OnInit {
 
-  team: any;
+  team: any = undefined;
   levels: any = {};
   currentMember: any = undefined;
 

@@ -7,7 +7,7 @@ import { DataService } from '../data.service';
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent implements OnInit {
-  page: any;
+  page: any = undefined;
 
   constructor(
     private dataService: DataService

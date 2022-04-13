@@ -1,5 +1,5 @@
 <app-header [page]="page"></app-header>
-<div class="list">
+<div class="list" *ngIf="this.page != undefined">
     <div class="list__line" routerLink="{{team.url}}" *ngFor="let team of this.page.teams">
         <div class="list__line-img-wrapper">
             <img [src]="team.logo" src="{{team.logo}}" alt="" class="list__line-img">
