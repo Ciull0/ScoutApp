@@ -1,0 +1,18 @@
+{
+  "name": "Lontre",
+  "logo": "assets/imgs/lontre.png",
+  "members": [
+    {
+      "name": "Jonnhy",
+      "level": "Special",
+      "goal": {
+        "date": "2022-04-14",
+        "value": "Vincere"
+      },
+      "commitment": {
+        "date": "2022-04-27",
+        "value": "Proteggere"
+      }
+    }
+  ]
+}
