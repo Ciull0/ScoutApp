@@ -3,6 +3,18 @@
   "logo": "assets/imgs/pantere.gif",
   "members": [
     {
+      "name": "Lorenzo",
+      "level": "3 - Superiore",
+      "goal": {
+        "date": "2022-05-05",
+        "value": "Architettare"
+      },
+      "commitment": {
+        "date": "",
+        "value": ""
+      }
+    },
+    {
       "name": "Gianluca",
       "level": "2 - Intermedi",
       "goal": {
