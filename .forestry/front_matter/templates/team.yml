@@ -45,6 +45,7 @@ fields:
       name: value
       label: Commitment Name
 pages:
+- assets/content/canguri.json
 - assets/content/castori.json
 - assets/content/lontre.json
 - assets/content/lupi.json
