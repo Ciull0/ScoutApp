@@ -5,6 +5,11 @@
   "background_image": "assets/imgs/eagle-scout-pattern-vector.jpg",
   "teams": [
     {
+      "name": "Pantere",
+      "url": "pantere",
+      "logo": "assets/imgs/pantere.gif"
+    },
+    {
       "name": "Castori",
       "url": "castori",
       "logo": "assets/imgs/castori.png"
