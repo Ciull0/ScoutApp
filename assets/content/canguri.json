@@ -3,6 +3,18 @@
   "logo": "assets/imgs/canguri.gif",
   "members": [
     {
+      "name": "Homer",
+      "level": "2 - Padre",
+      "goal": {
+        "date": "2022-04-25",
+        "value": "Mangiare"
+      },
+      "commitment": {
+        "date": "",
+        "value": ""
+      }
+    },
+    {
       "name": "Bart",
       "level": "1 - Australia",
       "goal": {
