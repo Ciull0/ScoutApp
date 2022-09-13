@@ -5,14 +5,19 @@
   "background_image": "assets/imgs/eagle-scout-pattern-vector.jpg",
   "teams": [
     {
-      "name": "Canguri",
-      "url": "canguri",
-      "logo": "assets/imgs/canguri.gif"
+      "name": "Lupi",
+      "url": "lupi",
+      "logo": "assets/imgs/lupi.png"
     },
     {
       "name": "Pantere",
       "url": "pantere",
       "logo": "assets/imgs/pantere.gif"
+    },
+    {
+      "name": "Canguri",
+      "url": "canguri",
+      "logo": "assets/imgs/canguri.gif"
     },
     {
       "name": "Castori",
@@ -23,11 +28,6 @@
       "name": "Lontre",
       "url": "lontre",
       "logo": "assets/imgs/lontre.png"
-    },
-    {
-      "name": "Lupi",
-      "url": "lupi",
-      "logo": "assets/imgs/lupi.png"
     }
   ]
 }
