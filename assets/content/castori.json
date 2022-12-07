@@ -3,6 +3,18 @@
   "logo": "assets/imgs/castori.png",
   "members": [
     {
+      "name": "Emma",
+      "level": "Ultimo",
+      "goal": {
+        "date": "2022-11-30",
+        "value": "Vincere"
+      },
+      "commitment": {
+        "date": "2022-12-28",
+        "value": "Proteggere"
+      }
+    },
+    {
       "name": "Giovanni",
       "level": "Scoperta",
       "goal": {
